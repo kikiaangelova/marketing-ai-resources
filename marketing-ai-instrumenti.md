@@ -313,4 +313,4 @@
   - **Уъркшопи на живо и постоянна подкрепа от мен**
   - **Библиотека с ресурси: промптове, шаблони, ръководства**
   - **Общност от съмишленици, с които да растете**
-- **Последвайте ме и в** [**TikTok**](https://www.tiktok.com/@willfrancis24), [**Instagram**](https://www.instagram.com/willfrancis/), [**YouTube**](https://www.youtube.com/@WillFrancis) **и** [**LinkedIn**](https://www.linkedin.com/in/willfrancis)
+- **Последвайте ме и в** [**Instagram**](https://www.instagram.com/willfrancis/) **и** [**LinkedIn**](https://www.linkedin.com/in/willfrancis)
