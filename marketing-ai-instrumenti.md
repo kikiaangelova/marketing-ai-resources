@@ -1,10 +1,6 @@
 # Основни инструменти за маркетинг и изкуствен интелект
 
-> Превод на български на [Marketing & AI Tools Cheat Sheet](https://docs.google.com/document/d/1W5SgEwfSd6x5G1XQ5iemZjoNb8-FRwd3Tj_nJCxg2d8/edit) (пищов). Текстът е на Will Francis и е в първо лице, както в оригинала. Всички линкове са запазени без промяна.
-
-Най-добрите инструменти за дигитален маркетинг, които наистина вършат работа, подбрани от [Will Francis](https://willfrancis.com/?utm_source=googledocs&utm_medium=referral&utm_campaign=contentmarketing&utm_content=toolscheatsheet), обучител по маркетинг и изкуствен интелект.
-
-‼️ **Очаквайте скоро:** [**AI for Marketing**](https://willfrancis.com/community/?utm_source=googledocs&utm_medium=referral&utm_campaign=contentmarketing&utm_content=toolscheatsheet) (изкуствен интелект за маркетинг). Станете маркетолог, който работи с изкуствен интелект, започвайки от нулата, в новата ми общност с уъркшопи на живо и постоянна подкрепа от мен. [**Запишете се в списъка с чакащи тук**](https://willfrancis.com/community/?utm_source=googledocs&utm_medium=referral&utm_campaign=contentmarketing&utm_content=toolscheatsheet).
+Това са селектирани от мен ресурси за моите ученици.
 
 ## Съдържание
 
