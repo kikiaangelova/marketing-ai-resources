@@ -50,6 +50,15 @@
 3. Inspect the output, check every claim against the supplied documents and mark missing information rather than guessing.
 4. Save the example input, instructions, result, corrections and a short human decision.
 
+### Copyable English prompt
+
+```text
+Draft a non-binding offer from the approved service catalog and price list only. Show item, quantity, unit price, subtotal, total and any unclear conditions. Flag all calculations for independent review; do not send the offer.
+
+INPUT MATERIAL:
+[PASTE FICTIONAL OR AUTHORISED DATA HERE]
+```
+
 **Validation:** Сборът 120 + 12×8 = 216 лв. е правилен; няма измислени отстъпки. Do not treat draft answers, categories, offers or extracted data as approved business actions.
 
 ## Кратка матрица / Assessment (12 точки / points)
