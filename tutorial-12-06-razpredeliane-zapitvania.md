@@ -50,6 +50,15 @@
 3. Inspect the output, check every claim against the supplied documents and mark missing information rather than guessing.
 4. Save the example input, instructions, result, corrections and a short human decision.
 
+### Copyable English prompt
+
+```text
+Route each fictional enquiry to Sales, Support, Finance or Needs clarification. Return message ID, category, team, textual justification and uncertainty. Do not send messages or invent missing details.
+
+INPUT MATERIAL:
+[PASTE FICTIONAL OR AUTHORISED DATA HERE]
+```
+
 **Validation:** Q01 продажби, Q02 поддръжка, Q03 финанси, Q04 за уточняване. Do not treat draft answers, categories, offers or extracted data as approved business actions.
 
 ## Кратка матрица / Assessment (12 точки / points)
