@@ -50,6 +50,15 @@
 3. Inspect the output, check every claim against the supplied documents and mark missing information rather than guessing.
 4. Save the example input, instructions, result, corrections and a short human decision.
 
+### Copyable English prompt
+
+```text
+Categorise the numbered anonymised reviews by cleanliness, service, food, location and price. Allow multiple categories. Return ID, theme, sentiment, supporting verbatim quotation and suggested action. Do not invent reviews or generalise from this small sample.
+
+INPUT MATERIAL:
+[PASTE FICTIONAL OR AUTHORISED DATA HERE]
+```
+
 **Validation:** Ръчно сравнение на категориите за 3 отзива и липса на несъществуващи цитати. Do not treat draft answers, categories, offers or extracted data as approved business actions.
 
 ## Кратка матрица / Assessment (12 точки / points)
