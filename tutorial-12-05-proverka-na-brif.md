@@ -50,6 +50,15 @@
 3. Inspect the output, check every claim against the supplied documents and mark missing information rather than guessing.
 4. Save the example input, instructions, result, corrections and a short human decision.
 
+### Copyable English prompt
+
+```text
+Audit the supplied client brief against goal, audience, budget, deadline, format, channels and approval owner. Quote missing and conflicting fields and return five priority questions. Never fill gaps by guessing.
+
+INPUT MATERIAL:
+[PASTE FICTIONAL OR AUTHORISED DATA HERE]
+```
+
 **Validation:** Разпознава две различни дати и липсващия бюджет, без да избира сам. Do not treat draft answers, categories, offers or extracted data as approved business actions.
 
 ## Кратка матрица / Assessment (12 точки / points)
