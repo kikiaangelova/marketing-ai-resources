@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Kiki Innovation & Learning Lab — practical learning resources for AI, business, education and digital innovation in Bulgarian and English.">
+<title>Kiki Innovation & Learning Lab</title>
+<style>
+:root{color-scheme:light;--ink:#202c3a;--muted:#53657a;--accent:#5546a2;--bg:#f6f7fb;--card:#fff;--line:#e1e5f0}*{box-sizing:border-box}body{margin:0;font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink)}a{color:var(--accent)}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #fbad51;outline-offset:2px}.wrap{max-width:1100px;margin:auto;padding:0 22px}header{background:linear-gradient(130deg,#25234c,#5546a2);color:#fff;padding:20px 0 62px}nav{display:flex;justify-content:space-between;align-items:center;gap:14px}nav a{color:white}.brand{font-size:1rem;font-weight:800}.lang{display:flex;gap:8px}button{cursor:pointer;border:1px solid var(--line);background:white;color:var(--ink);border-radius:999px;padding:9px 15px;font:inherit}button[aria-pressed=true]{background:#e5ddff;border-color:#c6b6ff;color:#28205d}header button{background:transparent;color:white;border-color:#c6b6ff}header button[aria-pressed=true]{background:#fff;color:#28205d}h1{font-size:clamp(2rem,5vw,3.3rem);line-height:1.15;margin:48px 0 15px;letter-spacing:-.03em}header p{max-width:760px;font-size:1.14rem;color:#efecff}main{padding:35px 0 60px}h2{margin:34px 0 9px;font-size:1.6rem}h3{margin:0 0 8px}.muted{color:var(--muted)}.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0 12px}input[type=search]{padding:13px 16px;border:1px solid #cbd2e0;border-radius:13px;flex:1;min-width:230px;font:inherit}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:20px;box-shadow:0 2px 7px #14223b08}.card p{margin:8px 0 15px;color:var(--muted)}.tag{display:inline-block;font-size:.77rem;border-radius:999px;background:#f0edff;color:#453488;padding:3px 10px;margin-bottom:12px}.cta{display:inline-block;font-weight:700}.mini{border-top:1px solid var(--line);padding-top:14px;margin-top:14px}.count{font-size:.9rem;color:var(--muted)}footer{padding:30px 0;border-top:1px solid var(--line);color:var(--muted)}.pill{font-size:.9rem}#empty{padding:24px}html[lang=en] .bg-only,html[lang=bg] .en-only{display:none}@media(max-width:540px){nav{align-items:flex-start}.brand{max-width:175px}header{padding-bottom:42px}h1{margin-top:30px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<nav><span class="brand">Kiki Innovation & Learning Lab</span><div class="lang" role="group" aria-label="Language / Език"><button id="bg" aria-pressed="true" type="button">БГ</button><button id="en" aria-pressed="false" type="button">EN</button></div></nav>
+<h1><span class="bg-only">От реален проблем<br>до проверено решение.</span><span class="en-only">From a real problem<br>to a tested solution.</span></h1>
+<p class="bg-only">Практически ресурси за AI, бизнес, дигитални иновации и предприемачество. Не търсим готови отговори. Учим се да задаваме въпроси, да проверяваме допускания и да защитаваме решения.</p>
+<p class="en-only">Practical resources for AI, business, digital innovation and entrepreneurship. Not a collection of ready-made answers: a place to ask better questions, test assumptions and defend decisions.</p>
+</div></header>
+<main class="wrap">
+<h2><span class="bg-only">Откъде да започна?</span><span class="en-only">Where should I start?</span></h2>
+<p class="muted bg-only">Избери интерес или потърси тема. Материалите, достъпни само на български, са обозначени ясно.</p>
+<p class="muted en-only">Choose a topic or search. Resources not yet fully translated are clearly labeled.</p>
+<div class="tools"><input id="query" type="search" aria-label="Search resources / Търси материали" placeholder="Търси тема или инструмент…">
+<button class="pill" data-filter="all" aria-pressed="true">All / Всички</button><button class="pill" data-filter="ai" aria-pressed="false">AI</button><button class="pill" data-filter="methods" aria-pressed="false">Methods / Методи</button><button class="pill" data-filter="projects" aria-pressed="false">Projects / Проекти</button></div>
+<p id="count" class="count" aria-live="polite"></p>
+<section id="cards" class="grid" aria-label="Resources"></section><p id="empty" hidden></p>
+<h2><span class="bg-only">За преподаватели и ментори</span><span class="en-only">For educators and mentors</span></h2>
+<div class="grid"><article class="card"><h3><span class="bg-only">Тест с реални потребители</span><span class="en-only">User testing pack</span></h3><p class="bg-only">Три конкретни задачи, протокол за наблюдение и критерии за полезност.</p><p class="en-only">Three real tasks, an observation protocol and usability criteria.</p><a href="user-test-bg-en.md" class="cta">BG / EN ↗</a></article>
+<article class="card"><h3><span class="bg-only">Как поддържаме качеството</span><span class="en-only">How we maintain quality</span></h3><p class="bg-only">Източници, версии, учебна стойност и отговорна употреба на AI.</p><p class="en-only">Sources, versions, educational value and responsible AI use.</p><a href="REDAKTSIONEN-STANDART.md" class="cta">BG ↗</a></article>
+<article class="card"><h3><span class="bg-only">Обратна връзка</span><span class="en-only">Feedback</span></h3><p class="bg-only">Анонимен шаблон за събиране на наблюдения. Не събираме лични данни на сайта.</p><p class="en-only">An anonymous feedback template. This site does not collect personal information.</p><a href="feedback-template-bg-en.md" class="cta">BG / EN ↗</a></article></div>
+<h2><span class="bg-only">От теорията към продуктите</span><span class="en-only">From learning to products</span></h2>
+<p class="muted bg-only">Приложения, които разработвам и използвам като повод за реални разговори за потребители, решения и ограничения.</p>
+<p class="muted en-only">Products I build and use to explore real user needs, decisions and trade-offs.</p>
+<div class="grid"><article class="card"><h3>DigiInnov Case Lab</h3><p>EdTech · Business simulations</p><a href="https://digitalinnovation.lovable.app/" rel="noopener noreferrer">Explore / Разгледай ↗</a></article><article class="card"><h3>IceNotes / SkateGoals</h3><p>SportTech · Training & reflection</p><a href="https://skategoals.com/" rel="noopener noreferrer">Explore / Разгледай ↗</a></article><article class="card"><h3>Speak Italian!</h3><p>Language learning experiment</p><a href="https://lingua-pal-italian.lovable.app/" rel="noopener noreferrer">Explore / Разгледай ↗</a></article></div>
+</main>
+<footer><div class="wrap">© Kiki Innovation & Learning Lab · <a href="https://github.com/kikiaangelova">Kirilka Angelova</a> · <a href="https://www.linkedin.com/in/kirilkaangelova/">LinkedIn</a> · <a href="LICENSE.md">License / Лиценз</a><p class="count">No analytics or tracking cookies are embedded in this page. / Страницата не включва аналитични скриптове или проследяващи бисквитки.</p></div></footer>
+<script>
+const base='https://github.com/kikiaangelova/marketing-ai-resources/blob/main/';
+const data=[
+['ai','AI tools: what to use and why','AI инструменти: какво да ползваш и защо','ai-instrumenti-s-obyasnenie.md','BG','Guide to choosing tools','Как да избираш инструмент'],
+['ai','Setting up ChatGPT','Настройване на ChatGPT','kak-da-nastroim-chatgpt-ai-for-business.md','BG','Personalization, learning and privacy','Лични настройки, учене и сигурност'],
+['ai','ChatGPT for Business','ChatGPT за бизнеса','chatgpt-rakovodstvo-ai-for-business.md','BG','A ten-module applied course','Приложен курс в 10 модула'],
+['ai','Claude for Business (18+)','Claude за бизнеса (18+)','claude-rakovodstvo-ai-for-business.md','BG','Applied research and workflows','Изследвания и работни процеси'],
+['ai','Check AI answers','Проверка на AI отговори','proverka-na-ai-otgovori.md','BG','Verify evidence, claims and sources','Доказателства, твърдения и източници'],
+['ai','AI courses','Безплатни AI курсове','ai-kursove.md','BG','Curated learning pathways','Подбрани учебни пътеки'],
+['ai','Marketing & AI toolkit','Маркетинг и AI инструменти','marketing-ai-instrumenti.md','BG','Tool catalog, check prices yourself','Каталог, проверявай цените'],
+['ai','Lovable connectors','Lovable конектори','lovable-konektori.md','BG','Integration directory','Справочник за интеграции'],
+['ai','AGENTS.md explained','AGENTS.md: инструкции за агенти','agents-md.md','BG','Translation with original license','Превод с оригиналния лиценз'],
+['methods','Digital innovation','Дигитални иновации','digitalni-inovacii.md','BG','From idea to value','От идея до стойност'],
+['methods','Design Thinking','Дизайнерско мислене','design-thinking.md','BG','Understand the real user','Опознай реалния потребител'],
+['methods','Lean Startup','Lean Startup','lean-startup.md','BG','Test before investing','Провери, преди да инвестираш'],
+['methods','Digital transformation','Дигитална трансформация','digitalna-transformacia.md','BG','People, process and technology','Хора, процеси и технологии'],
+['projects','Integrated business project','Интегриран бизнес проект','integriran-biznes-proekt.md','BG','Eight phases from problem to pitch','Осем фази от проблема до защитата'],
+['projects','AI in graduation projects','AI в дипломна работа','ai-za-diplomna-rabota.md','BG','Responsible applied research','Отговорно проучване'],
+['projects','Worked AI & business examples','Практически решения с AI','prakticheski-reshenia-ai-business.md','BG','Four worked learning examples','Четири разработени примера'],
+['projects','AI verification practice — English','AI проверка — английска версия','ai-verification-en.md','EN','Evidence-based learning task','Английски практически материал'],
+['projects','Design Thinking activity — English','Design Thinking — на английски','design-thinking-activity-en.md','EN','Interview, insight, prototype, test','Интервю, наблюдение, прототип, тест'],
+['projects','Lean Startup activity — English','Lean Startup — на английски','lean-startup-activity-en.md','EN','Hypothesis, measure, decision','Хипотеза, измерване, решение']
+];
+let lang='bg',filter='all';const cards=document.getElementById('cards'),query=document.getElementById('query');
+function render(){const q=query.value.toLocaleLowerCase().trim();const rows=data.filter(x=>(filter==='all'||x[0]===filter)&&x.slice(1).join(' ').toLocaleLowerCase().includes(q));cards.textContent='';for(const a of rows){const el=document.createElement('article');el.className='card';const tag=document.createElement('span');tag.className='tag';tag.textContent=(a[0]==='methods'?'Methods / Методи':a[0]==='projects'?'Projects / Проекти':'AI')+' · '+a[4];el.appendChild(tag);const h=document.createElement('h3');h.textContent=lang==='en'?a[1]:a[2];el.appendChild(h);const p=document.createElement('p');p.textContent=lang==='en'?a[5]:a[6];el.appendChild(p);const link=document.createElement('a');link.className='cta';link.href=base+a[3];link.textContent=(lang==='en'?'Read resource':'Отвори ресурса')+' ↗';el.appendChild(link);cards.appendChild(el)}document.getElementById('count').textContent=rows.length+' / '+data.length+' '+(lang==='en'?'resources':'ресурса');document.getElementById('empty').hidden=rows.length!==0;document.getElementById('empty').textContent=lang==='en'?'No matches. Try a different search.':'Няма резултати. Опитай друга дума.'}
+document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{filter=b.dataset.filter;document.querySelectorAll('[data-filter]').forEach(c=>c.setAttribute('aria-pressed',String(c===b)));render()}));
+for(const l of ['bg','en'])document.getElementById(l).addEventListener('click',()=>{lang=l;document.documentElement.lang=l;document.querySelectorAll('.lang button').forEach(b=>b.setAttribute('aria-pressed',String(b.id===l)));query.placeholder=l==='bg'?'Търси тема или инструмент…':'Search a topic or tool…';render()});query.addEventListener('input',render);render();
+</script>
+</body></html>
