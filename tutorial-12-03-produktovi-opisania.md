@@ -50,6 +50,15 @@
 3. Inspect the output, check every claim against the supplied documents and mark missing information rather than guessing.
 4. Save the example input, instructions, result, corrections and a short human decision.
 
+### Copyable English prompt
+
+```text
+Write two product descriptions (50 and 100 words) using only the verified specifications supplied. List missing product details explicitly. Do not invent materials, sizes, certifications or benefits.
+
+INPUT MATERIAL:
+[PASTE FICTIONAL OR AUTHORISED DATA HERE]
+```
+
 **Validation:** Няма измислени материали, гаранции или характеристики. Do not treat draft answers, categories, offers or extracted data as approved business actions.
 
 ## Кратка матрица / Assessment (12 точки / points)
