@@ -8,6 +8,19 @@
 
 Кирилка Ангелова
 
+## Български / English
+
+**[Отвори двуезичната начална страница / Open the bilingual home page](https://kikiaangelova.github.io/marketing-ai-resources/)** — избор на BG/EN, търсене по тема и категории.
+
+- **[English: Verify AI Answers](ai-verification-en.md)** — independent source-checking activity.
+- **[English: Design Thinking](design-thinking-activity-en.md)** — interview-to-prototype classroom exercise.
+- **[English: Lean Startup](lean-startup-activity-en.md)** — hypothesis, experiment and evidence.
+- **[Български / English: тест с потребители](user-test-bg-en.md)** — сценарии, задачи и критерии.
+- **[Български / English: обратна връзка](feedback-template-bg-en.md)** — кратък анонимен шаблон.
+- **[Български / English: измерване](METRICS-bg-en.md)** — показатели, базови стойности и цели.
+
+**Статус на превода:** навигацията е двуезична, но голяма част от пълните курсове остават на български. Английските материали засега са самостоятелни практически упражнения, не пълни преводи. Означаваме ясно езика на всеки ресурс.
+
 ## Започнете оттук
 
 Не е необходимо да прочетете всичко подред. Изберете път според това, което искате да постигнете:
