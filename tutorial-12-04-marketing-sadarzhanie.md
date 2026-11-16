@@ -50,6 +50,15 @@
 3. Inspect the output, check every claim against the supplied documents and mark missing information rather than guessing.
 4. Save the example input, instructions, result, corrections and a short human decision.
 
+### Copyable English prompt
+
+```text
+Draft two marketing posts for the supplied brief and audience: one informational and one engaging. Use only confirmed event details. Give one call to action, an appropriate success metric and facts requiring approval. Do not publish.
+
+INPUT MATERIAL:
+[PASTE FICTIONAL OR AUTHORISED DATA HERE]
+```
+
 **Validation:** Няма фалшиви данни; текстът не е публикуван автоматично. Do not treat draft answers, categories, offers or extracted data as approved business actions.
 
 ## Кратка матрица / Assessment (12 точки / points)
