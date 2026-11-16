@@ -50,6 +50,15 @@
 3. Inspect the output, check every claim against the supplied documents and mark missing information rather than guessing.
 4. Save the example input, instructions, result, corrections and a short human decision.
 
+### Copyable English prompt
+
+```text
+Match the customer's stated needs and budget against ONLY the supplied verified catalog. Return up to three suitable options with concrete features, budget compliance and trade-offs. Do not invent inventory or specifications.
+
+INPUT MATERIAL:
+[PASTE FICTIONAL OR AUTHORISED DATA HERE]
+```
+
 **Validation:** Не препоръчва C като съвместим с бюджета; ясно посочва компромисите. Do not treat draft answers, categories, offers or extracted data as approved business actions.
 
 ## Кратка матрица / Assessment (12 точки / points)
