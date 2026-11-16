@@ -50,6 +50,15 @@
 3. Inspect the output, check every claim against the supplied documents and mark missing information rather than guessing.
 4. Save the example input, instructions, result, corrections and a short human decision.
 
+### Copyable English prompt
+
+```text
+Draft a customer reply using ONLY the approved reference document provided. Return: (1) a concise reply, (2) the exact source section, (3) facts a staff member must verify. Never invent rates or availability or confirm a reservation.
+
+INPUT MATERIAL:
+[PASTE FICTIONAL OR AUTHORISED DATA HERE]
+```
+
 **Validation:** Не потвърждава паркомясто; посочва 10:00; цитира източника. Do not treat draft answers, categories, offers or extracted data as approved business actions.
 
 ## Кратка матрица / Assessment (12 точки / points)
